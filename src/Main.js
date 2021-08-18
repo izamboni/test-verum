@@ -2,6 +2,11 @@ import { useState } from "react";
 import {madd, neve, ives, seren, derok} from './resources/campaigs/HeartOfTyre';
 import {ahst, eustace, moe, raost, toot} from './resources/campaigs/ShadowOfTyre';
 import {bela, braktor, alexander, hackne, ozzie} from './resources/campaigs/SoulOfTyre';
+import {pipe, guy, huckleberry, ikkar, scrumpo} from './resources/campaigs/ShatteredCrowns';
+import {arcidamus, gallan, koordin, mirage, zacky} from './resources/campaigs/StrangeRoads';
+import {angorn, flamewrath, nidhogg, raber, vim, wisp} from './resources/campaigs/TearingVeil';
+import {madeleine, revlis, terryn, umi, vaeri, zara} from './resources/campaigs/SteelAndSilence';
+import {bryan, fear, hash, lilu, dahc, remag} from './resources/campaigs/BrokenBonds';
 
 function Main() {
     return (
@@ -9,6 +14,11 @@ function Main() {
             <Box campaign='Heart of Tyre' members={[madd, neve, ives, seren, derok]} />
             <Box campaign='Shadow of Tyre' members={[ahst, eustace, moe, raost, toot]} />
             <Box campaign='Soul of Tyre' members={[bela, braktor, alexander, hackne, ozzie]} />
+            <Box campaign='Shattered Crowns' members={[pipe, guy, huckleberry, ikkar, scrumpo]} />
+            <Box campaign='Strange Roads' members={[arcidamus, gallan, koordin, mirage, zacky]} />
+            <Box campaign='Tearing Veil' members={[angorn, flamewrath, nidhogg, raber, vim, wisp]} />
+            <Box campaign='Steel and Silence' members={[madeleine, revlis, terryn, umi, vaeri, zara]} />
+            <Box campaign='Broken Bonds' members={[bryan, fear, hash, lilu, dahc, remag]} />
 
         </div>
     );
@@ -22,7 +32,7 @@ function Box (props){
     }
 
     return (
-        <div className={'box'} /*onClick={changeActive}*/>
+        <div className={'box'}>
             <Campaign campaign={props.campaign} actived={changeActive} />
             <Members members={props.members} active={active} />
         </div>
