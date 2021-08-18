@@ -4,7 +4,6 @@ function Main() {
     return (
         <div className="main">
             <Box campaign='Heart of Tyre' members={['Madd Morc, ', 'Neve, ', 'Ives Brightburn, ', 'Seren Thistlehoove, ', 'Lord Antonius Volnaris']} />
-
             <Box campaign='Shadow of Tyre' members={['Ahst, ', 'Eustace, ', 'Moe Kowbull, ', 'Raost Tredder, ', 'Toot']} />
 
         </div>
@@ -20,10 +19,16 @@ function Box (props){
 
     return (
         <div className={'box'} onClick={changeActive}>
-            <div>    
-                {props.campaign}
-            </div>
+            <Campaign campaign={props.campaign} />
             <Members members={props.members} active={active} />
+        </div>
+    );
+}
+
+function Campaign (props){
+    return (
+        <div className='campaign'>    
+            {props.campaign}
         </div>
     );
 }

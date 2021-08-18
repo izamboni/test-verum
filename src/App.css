@@ -28,14 +28,13 @@
   flex-wrap: wrap;
   overflow: hidden;
   
-  font-size: 1.8rem;
-  
-  color: black;
-
-  transition: color 1s;
   justify-content: center;
 }
 
+.campaign {
+  font-size: 1.8rem;
+  color: black;
+}
 
 .members {
   display: flex;
