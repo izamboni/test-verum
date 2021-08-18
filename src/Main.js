@@ -3,8 +3,8 @@ import { useState } from "react";
 function Main() {
     return (
         <div className="main">
-            <Box campaign='Heart of Tyre' members={['Madd Morc, ', 'Neve, ', 'Ives Brightburn, ', 'Seren Thistlehoove, ', 'Lord Antonius Volnaris']} />
-            <Box campaign='Shadow of Tyre' members={['Ahst, ', 'Eustace, ', 'Moe Kowbull, ', 'Raost Tredder, ', 'Toot']} />
+            <Box campaign='Heart of Tyre' members={['Madd Morc', 'Neve', 'Ives Brightburn', 'Seren Thistlehoove', 'Lord Antonius Volnaris']} />
+            <Box campaign='Shadow of Tyre' members={['Ahst', 'Eustace', 'Moe Kowbull', 'Raost Tredder', 'Toot']} />
 
         </div>
     );
@@ -36,9 +36,9 @@ function Campaign (props){
 function Members (props) {
     return (
         <div className={'members '  + props.active}>
-            <ul className={"list-members "  + props.active}>
-                {props.members.map(member => (<li key={member}>{member}</li>))}
-            </ul>
+            <div className={"list-members "  + props.active}>
+                {props.members.map(member => (<div>{member}</div>))}
+            </div>
         </div>
     );
 }
