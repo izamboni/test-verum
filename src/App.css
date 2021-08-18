@@ -38,6 +38,8 @@
 }
 
 .campaign {
+  width: 100%;
+  text-align: center;
   font-size: 1.8rem;
   color: black;
 }
@@ -50,7 +52,7 @@
 
   font-size: 1.2rem;
   
-  justify-content: start;
+  justify-content: center;
   
   max-height: 0;
   opacity: 0;
@@ -60,21 +62,31 @@
 .members.active {
   max-height: 100vh;
   opacity: 1;
-  transition: max-height 0.5s, opacity 0.4s;
+  transition: max-height 1s, opacity 0.4s;
 }
 
-/* .list-members{
-  max-height: 0;
-  opacity: 0;
-  transition: max-height 0.5s, opacity 0.4s;
+.list-members{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-.list-members.active{
-  max-height: 100vh;
-  opacity: 1;
-  transition: max-height 0.5s, opacity 0.4s;
-} */
+.list-members h4 {
+  margin: 0;
+  border-bottom-style: solid;
+  text-align: center;
+}
 
+.list-members h5 {
+  text-align: center;
+  margin: 0.25em;
+}
+
+.list-members h6 {
+  text-align: center;
+  margin: 0.25em;
+}
 
 .footer{
   display: flex;
