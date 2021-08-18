@@ -1,11 +1,14 @@
 import { useState } from "react";
 import {madd, neve, ives, seren, derok} from './resources/campaigs/HeartOfTyre';
+import {ahst, eustace, moe, raost, toot} from './resources/campaigs/ShadowOfTyre';
+import {bela, braktor, alexander, hackne, ozzie} from './resources/campaigs/SoulOfTyre';
 
 function Main() {
     return (
         <div className="main">
             <Box campaign='Heart of Tyre' members={[madd, neve, ives, seren, derok]} />
-            {/* <Box campaign='Shadow of Tyre' members={['Ahst', 'Eustace', 'Moe Kowbull', 'Raost Tredder', 'Toot']} /> */}
+            <Box campaign='Shadow of Tyre' members={[ahst, eustace, moe, raost, toot]} />
+            <Box campaign='Soul of Tyre' members={[bela, braktor, alexander, hackne, ozzie]} />
 
         </div>
     );

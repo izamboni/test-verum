@@ -50,7 +50,7 @@
 
   font-size: 1.2rem;
   
-  justify-content: start;
+  justify-content: center;
   
   max-height: 0;
   opacity: 0;
@@ -63,8 +63,17 @@
   transition: max-height 0.5s, opacity 0.4s;
 }
 
+.list-members{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 .list-members h4 {
   margin: 0;
+  border-bottom-style: solid;
+  text-align: center;
 }
 
 .list-members h5 {
