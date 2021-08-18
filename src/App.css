@@ -63,18 +63,13 @@
   transition: max-height 0.5s, opacity 0.4s;
 }
 
-/* .list-members{
-  max-height: 0;
-  opacity: 0;
-  transition: max-height 0.5s, opacity 0.4s;
+.list-members h4 {
+  margin: 0;
 }
 
-.list-members.active{
-  max-height: 100vh;
-  opacity: 1;
-  transition: max-height 0.5s, opacity 0.4s;
-} */
-
+.list-members h5 {
+  margin: 0.25em;
+}
 
 .footer{
   display: flex;

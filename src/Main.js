@@ -1,10 +1,11 @@
 import { useState } from "react";
+import {madd, neve, ives, seren, derok} from './resources/campaigs/HeartOfTyre';
 
 function Main() {
     return (
         <div className="main">
-            <Box campaign='Heart of Tyre' members={['Madd Morc', 'Neve', 'Ives Brightburn', 'Seren Thistlehoove', 'Lord Antonius Volnaris']} />
-            <Box campaign='Shadow of Tyre' members={['Ahst', 'Eustace', 'Moe Kowbull', 'Raost Tredder', 'Toot']} />
+            <Box campaign='Heart of Tyre' members={[madd, neve, ives, seren, derok]} />
+            {/* <Box campaign='Shadow of Tyre' members={['Ahst', 'Eustace', 'Moe Kowbull', 'Raost Tredder', 'Toot']} /> */}
 
         </div>
     );
@@ -37,7 +38,13 @@ function Members (props) {
     return (
         <div className={'members '  + props.active}>
             <div className={"list-members "  + props.active}>
-                {props.members.map(member => (<div>{member}</div>))}
+                {props.members.map(member => (
+                    <div>
+                        <h4>{member.name}</h4> 
+                        <h5>Race: {member.race}</h5> 
+                        <h5>Class: {member.job}</h5>
+                    </div>
+                ))}
             </div>
         </div>
     );
