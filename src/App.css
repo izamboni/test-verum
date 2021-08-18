@@ -1,7 +1,7 @@
 .App{
   display: flex;
   border: black;
-  border-style:solid;
+  border-style:dotted;
   flex-wrap: wrap;
 }
 
@@ -9,7 +9,7 @@
   margin: 0%;
   width: 100%;
   border: black;
-  border-style:solid;
+  border-style:dotted;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
   width: 100%;
   height: fit-content;
   border: black;
-  border-style:solid;
+  border-style:dotted;
 }
 
 .box {
@@ -29,6 +29,12 @@
   overflow: hidden;
   
   justify-content: center;
+
+  border: blueviolet;
+  border-style: solid;
+
+  margin: 0.2em;
+  padding: 0.2em;
 }
 
 .campaign {
@@ -42,7 +48,7 @@
 
   font-size: 1.2rem;
   
-  justify-content: center;
+  justify-content: start;
   
   max-height: 0;
   opacity: 0;
@@ -50,13 +56,6 @@
 }
 
 .members.active {
-  display: flex;
-  width: 100%;
-  
-  font-size: 1.2rem;
-  
-  justify-content: center;
-  
   max-height: 100vh;
   opacity: 1;
   transition: max-height 0.5s, opacity 0.4s;

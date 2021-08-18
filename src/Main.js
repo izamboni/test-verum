@@ -37,11 +37,7 @@ function Members (props) {
     return (
         <div className={'members '  + props.active}>
             <ul className={"list-members "  + props.active}>
-                <li>{props.members}</li>
-                {/* <li>{props.members[1]}</li>
-                <li>{props.members[2]}</li>
-                <li>{props.members[3]}</li>
-                <li>{props.members[4]}</li> */}
+                {props.members.map(member => (<li key={member}>{member}</li>))}
             </ul>
         </div>
     );
