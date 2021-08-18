@@ -5,10 +5,10 @@ export const arcidamus = {
     wiki: 'https://verum.fandom.com/wiki/Arcidamus_da_Silva'
 };
 
-export const gallan = {
-    name: 'Gallan Troth',
-    race: 'Goliath',
-    job: 'Cleric',
+export const nox = {
+    name: "N'varja Ilven",
+    race: 'Blue Dragonborn',
+    job: 'Samurai',
     wiki: 'https://verum.fandom.com/wiki/Neve'
 };
 
@@ -16,7 +16,7 @@ export const koordin = {
     name: 'Koordrin Stormbane',
     race: 'Minotaur',
     job: 'Fighter',
-    wiki: 'https://verum.fandom.com/wiki/Koordrin_Stormbane'
+    wiki: 'https://verum.fandom.com/wiki/Nox'
 };
 
 export const mirage = {

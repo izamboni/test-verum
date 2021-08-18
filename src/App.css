@@ -44,6 +44,12 @@
   color: black;
 }
 
+.campaign img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .members {
   display: flex;
   width: 100%;

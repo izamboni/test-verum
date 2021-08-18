@@ -12,11 +12,11 @@ export const braktor = {
     wiki: 'https://verum.fandom.com/wiki/Braktor_Ironbellows'
 };
 
-export const alexander = {
-    name: 'Alexander Glenn',
-    race: 'Aasimar',
-    job: 'Fighter',
-    wiki: 'https://verum.fandom.com/wiki/Alexander_Glenn'
+export const gruff = {
+    name: 'Gerald Wagner',
+    race: 'Rexsas',
+    job: 'Barbarian',
+    wiki: 'https://verum.fandom.com/wiki/Gruff'
 };
 
 export const hackne = {
