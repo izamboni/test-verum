@@ -22,8 +22,8 @@ function Box (props){
     }
 
     return (
-        <div className={'box'} onClick={changeActive}>
-            <Campaign campaign={props.campaign} />
+        <div className={'box'} /*onClick={changeActive}*/>
+            <Campaign campaign={props.campaign} actived={changeActive} />
             <Members members={props.members} active={active} />
         </div>
     );
@@ -31,7 +31,7 @@ function Box (props){
 
 function Campaign (props){
     return (
-        <div className='campaign'>    
+        <div className='campaign' onClick={props.actived}>    
             {props.campaign}
         </div>
     );
@@ -46,6 +46,7 @@ function Members (props) {
                         <h4>{member.name}</h4> 
                         <h5>Race: {member.race}</h5> 
                         <h5>Class: {member.job}</h5>
+                        <h6><a href={member.wiki} target="_blank">More Info</a></h6>
                     </div>
                 ))}
             </div>
