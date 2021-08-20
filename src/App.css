@@ -1,25 +1,80 @@
-.App{
+.App {
   display: flex;
-  border: black;
-  border-style:dotted;
+  /* border: black;
+  border-style:dotted; */
   flex-wrap: wrap;
 }
 
-.header{
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
   margin: 0%;
   width: 100%;
-  border: black;
-  border-style:dotted;
+  background-color: white;
   text-align: center;
 }
 
-.main{
+.menu-campaigns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* .list-campaigns,
+.list-campaigns ul,
+.list-campaigns li,
+.list-campaigns a{
+  position: fixed;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  top: -10px;
+} */
+
+.list-campaigns {
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.list-campaigns.active {
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.list-campaigns ul {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 10%;
+  list-style: none;
+  padding: 0;
+}
+
+/* .list-campaigns li {
+  width: auto;
+} */
+
+.list-campaigns a { 
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+.main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: fit-content;
-  border: black;
-  border-style:dotted;
+  /* border: black;
+  border-style:dotted; */
 }
 
 .box {
@@ -38,16 +93,19 @@
 }
 
 .campaign {
+  display: flex;
   width: 100%;
   text-align: center;
   font-size: 1.8rem;
   color: black;
+  
 }
 
 .campaign img {
   max-width: 100%;
   height: auto;
   display: block;
+  z-index: 1;
 }
 
 .members {

@@ -52,7 +52,7 @@ function Box (props){
 
 function Campaign (props){
     return (
-        <div className='campaign' onClick={props.actived}>    
+        <div className='campaign' id={props.campaign} onClick={props.actived}>    
             <img src={props.banner} alt={props.campaign} />
                 {/* {props.campaign} */}
         </div>
@@ -68,7 +68,7 @@ function Members (props) {
                         <h4>{member.name}</h4> 
                         <h5>Race: {member.race}</h5> 
                         <h5>Class: {member.job}</h5>
-                        <h6><a href={member.wiki} target="_blank">More Info</a></h6>
+                        <h6><a href={member.wiki} target="_blank" rel="noreferrer">More Info</a></h6>
                     </div>
                 ))}
             </div>
