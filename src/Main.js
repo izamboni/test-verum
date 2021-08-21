@@ -52,7 +52,7 @@ function Box (props){
 
 function Campaign (props){
     return (
-        <div className='campaign' id={props.campaign} onClick={props.actived}>    
+        <div className={'campaign ' + props.campaign} id={props.campaign} onClick={props.actived}>    
             <img src={props.banner} alt={props.campaign} />
                 {/* {props.campaign} */}
         </div>
@@ -64,7 +64,7 @@ function Members (props) {
         <div className={'members '  + props.active}>
             <div className={"list-members "  + props.active}>
                 {props.members.map(member => (
-                    <div>
+                    <div key={member.name}>
                         <h4>{member.name}</h4> 
                         <h5>Race: {member.race}</h5> 
                         <h5>Class: {member.job}</h5>
