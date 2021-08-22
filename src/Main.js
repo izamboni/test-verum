@@ -1,4 +1,7 @@
 import { useState } from "react";
+import {madd, neve, ives, seren, derok} from './resources/campaigs/HeartOfTyre';
+import {ahst, eustace, moe, raost, toot} from './resources/campaigs/ShadowOfTyre';
+import {bela, braktor, alexander, hackne, ozzie} from './resources/campaigs/SoulOfTyre';
 
 import {madd, neve, ives, seren, derok} from './resources/campaigs/HeartOfTyre';
 import {ahst, eustace, moe, raost, toot} from './resources/campaigs/ShadowOfTyre';
@@ -22,6 +25,7 @@ import bonds from './resources/Banners/bonds.jpg';
 function Main() {
     return (
         <div className="main">
+
             <Box campaign='Heart of Tyre' banner={heart} members={[madd, neve, seren, ives, derok]} />
             <Box campaign='Shadow of Tyre' banner={shadow} members={[moe, toot, ahst, raost, eustace]} />
             <Box campaign='Soul of Tyre' banner={soul} members={[gruff, bela, ozzie, hackne, braktor]} />
