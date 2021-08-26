@@ -32,3 +32,5 @@ export const scrumpo = {
     job: 'Rogue',
     wiki: 'https://verum.fandom.com/wiki/Scrumpo'
 };
+
+export const crownsDescription = "The Skarab Lords have slept for a thousand years, but now they have begun to awaken. Five unsuspecting adventurers will now face the secret threat beneath the sands and walk the path of inheritance.";

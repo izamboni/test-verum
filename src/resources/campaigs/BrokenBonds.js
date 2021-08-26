@@ -39,3 +39,5 @@ export const remag = {
     job: 'Mage',
     wiki: 'https://verum.fandom.com/wiki/Remag'
 };
+
+export const bondsDescription = "The Shackled Legion is a place that criminals often find themselves. It is a place where thieves, murderers, bandits, and so many more go to pay for their crimes. And our adventurers this time, are doing just that. They have all been imprisoned at the Iron for crimes that they may or may not have committed. But their goal for now, is to break the bonds that bind them.";

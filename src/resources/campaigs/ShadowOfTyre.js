@@ -32,3 +32,5 @@ export const toot = {
     job: 'Cleric',
     wiki: 'https://verum.fandom.com/wiki/Toot'
 };
+
+export const shadowDescription = "Following the events of Gambler's Delight, the pirates are joined by two other groups as they embark on their next quest: finding their way through a vicious labyrinth and finding the Shadow of Tyre.";

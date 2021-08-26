@@ -32,3 +32,5 @@ export const derok = {
     job: 'Sorcerer',
     wiki: 'https://verum.fandom.com/wiki/Derok_Dranf'
 };
+
+export const heartDescription = 'Following the events of Meaning in Madness, the TOPS join hands with two other groups as their next trial stands before them: clearing an infected labyrinth and finding the Heart of Tyre.'; 

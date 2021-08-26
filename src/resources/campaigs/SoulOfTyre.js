@@ -32,3 +32,5 @@ export const ozzie = {
     job: 'Druid',
     wiki: 'https://verum.fandom.com/wiki/Ozzie_Whitebeak'
 };
+
+export const soulDescription = "Following the events of Gailen's Gate our heroes unite forces with two other groups as they face their next challenge: securing a malevolent labyrinth and finding the Soul of Tyre.";

@@ -39,3 +39,5 @@ export const zara = {
     job: 'Samurai',
     wiki: 'https://verum.fandom.com/wiki/Zara'
 };
+
+export const steelDescription = "The adventurers begin their journey across Daborak to meet the Lord of Blades to ask for assistance in the incoming fight against the Enemy.";

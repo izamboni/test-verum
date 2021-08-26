@@ -32,3 +32,5 @@ export const zacky = {
     job: 'Warlock',
     wiki: 'https://verum.fandom.com/wiki/Zacharius_Aradhel'
 };
+
+export const strangeDescription = "The call of adventure and travel truly does bring together the most unlikely of people, and each person a different story to tell along the way. It is time for the Carnivale to make its trip across the continent, to bring joy and stories to the people. Some adventurers have been recruited to make sure the trip goes smoothly.";

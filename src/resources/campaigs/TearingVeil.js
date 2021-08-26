@@ -39,3 +39,5 @@ export const wisp = {
     job: 'Bard',
     wiki: 'https://verum.fandom.com/wiki/Wisp'
 };
+
+export const veilDescription = "Six travelers of the not-so-good origins do the bidding of the god Oloken'hai with the ultimate goal of eliminating the White Council.";
