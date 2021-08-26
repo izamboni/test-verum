@@ -113,15 +113,15 @@
   font-size: 1.8rem;
   color: black;
   /* background-image: url('./resources/Banners/heart.jpg'); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   /* width: 100%;
   height: auto; */
 }
 
 .campaign img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   display: block;
   z-index: 1;
