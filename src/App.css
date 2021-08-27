@@ -3,6 +3,9 @@
   /* border: black;
   border-style:dotted; */
   flex-wrap: wrap;
+  background-image: url('./resources/magicBck2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -11,7 +14,7 @@
   z-index: 5;
   margin: 0%;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0);
+  /* background-color: rgba(255, 255, 255, 0); */
   /* background-color: white; */
   text-align: start;
 }
@@ -20,7 +23,11 @@
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  background-color: white;
+  background-color: blueviolet;
+  opacity: 0.85;
+  color: white;
+  font-size: 1.25rem;
+  /* text-transform: uppercase; */
 }
 
 .menu-campaigns {
@@ -29,16 +36,6 @@
   /* width: 100%; */
 }
 
-/* .list-campaigns,
-.list-campaigns ul,
-.list-campaigns li,
-.list-campaigns a{
-  position: fixed;
-  width: 0;
-  height: 0;
-  font-size: 0;
-  top: -10px;
-} */
 
 .list-campaigns {
   width: 0;
@@ -50,11 +47,9 @@
 .list-campaigns.active {
   position: relative;
   width: 100%;
-  /* height: 100%; */
-  opacity: 1;
+  opacity: 0.85;
   font-size: 0.9rem;
   transition: opacity 0.7s, width 0.2s, font-size 0.8s;
-  
 }
 
 .list-campaigns ul {
@@ -67,10 +62,6 @@
   padding: 0;
   margin: 0;
 }
-
-/* .list-campaigns li {
-  width: auto;
-} */
 
 .list-campaigns a { 
   color: white;
@@ -108,16 +99,29 @@
 .campaign {
   display: flex;
   width: 100%;
-  /* height: 200px; */
   text-align: center;
-  font-size: 1.8rem;
-  color: black;
-  /* background-image: url('./resources/Banners/heart.jpg'); */
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  /* width: 100%;
-  height: auto; */
+  /* font-size: 1.8rem; */
+  color: black; 
+}
+
+.campaign .description{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.campaign .description h1 {
+  text-decoration: underline black solid;
+  margin: 0;
+}
+
+.campaign .description p{
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  max-height: 200px;
+  min-width: 455px;
+  overflow: hidden;
 }
 
 .campaign img {
@@ -125,7 +129,7 @@
   height: auto;
   display: block;
   z-index: 1;
-  /* opacity: 0; */
+  opacity: 0.85;
 }
 
 .members {

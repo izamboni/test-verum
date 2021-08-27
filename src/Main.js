@@ -22,7 +22,6 @@ import bonds from './resources/Banners/bonds.jpg';
 function Main() {
     return (
         <div className="main">
-
             <Box campaign='Heart of Tyre' banner={heart} members={[madd, neve, seren, ives, derok]} description={heartDescription} />
             <Box campaign='Shadow of Tyre' banner={shadow} members={[moe, toot, ahst, raost, eustace]} description={shadowDescription} />
             <Box campaign='Soul of Tyre' banner={soul} members={[gruff, bela, ozzie, hackne, braktor]} description={soulDescription} />
@@ -54,7 +53,7 @@ function Box (props){
 function Campaign (props){
     return (
         <div className={'campaign ' + props.campaign} id={props.campaign} onClick={props.actived}>
-            <div>
+            <div className='description'>
                 <h1>{props.campaign}</h1>
                 <p>{props.description}</p>    
             </div>
