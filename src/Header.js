@@ -19,7 +19,7 @@ function Header(){
 
 function ListCampaigns (props){
     return (
-        <div className={'list-campaigns ' + props.active}>
+        <div className={`list-campaigns ${props.active}`}>
                 {props.active === 'active' ? (<ul>
                     <li key='Heart of Tyre'><a href='#Heart of Tyre'> Heart of Tyre </a></li>
                     <li key='Shadow of Tyre'><a href='#Shadow of Tyre'>Shadow of Tyre </a></li>

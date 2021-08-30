@@ -52,7 +52,7 @@ function Box (props){
 
 function Campaign (props){
     return (
-        <div className={'campaign ' + props.campaign} id={props.campaign} onClick={props.actived}>
+        <div className={`campaign ${props.campaign}`} id={props.campaign} onClick={props.actived}>
             <div className='description'>
                 <h1>{props.campaign}</h1>
                 <p>{props.description}</p>    
@@ -65,8 +65,8 @@ function Campaign (props){
 
 function Members (props) {
     return (
-        <div className={'members '  + props.active}>
-            <div className={"list-members "  + props.active}>
+        <div className={`members ${props.active}`}>
+            <div className={`list-members ${props.active}`}>
                 {props.members.map(member => (
                     <div key={member.name}>
                         <h4>{member.name}</h4> 
