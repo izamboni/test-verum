@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "key": "heart_of_tyre",
+            "data": {
+                "madd": {
+                    "name": "Madd Morc",
+                    "race": "Half-Orc",
+                    "job": "Fighter",
+                    "wiki": "https://verum.fandom.com/wiki/Madd_Morc"
+                },
+                "neve": {
+                    "name": "Neve",
+                    "race": "Changeling",
+                    "job": "Rogue",
+                    "wiki": "https://verum.fandom.com/wiki/Neve"
+                },
+
+                "ives": {
+                    "name": "Ives Brightburn",
+                    "race": "Human",
+                    "job": "Rogue",
+                    "wiki": "https://verum.fandom.com/wiki/Ives_Brightburn"
+                },
+
+                "seren": {
+                    "name": "Seren Tredder",
+                    "race": "Eldar",
+                    "job": "Dream Druid",
+                    "wiki": "https://verum.fandom.com/wiki/Seren_Tredder"
+                },
+
+                "derok": {
+                    "name": "Derok Dranf",
+                    "race": "Vega",
+                    "job": "Sorcerer",
+                    "wiki": "https://verum.fandom.com/wiki/Derok_Dranf"
+                },
+                "description": "Following the events of Meaning in Madness, the TOPS join hands with two other groups as their next trial stands before them: clearing an infected labyrinth and finding the Heart of Tyre."
+            }
+        }
+    ]
+}

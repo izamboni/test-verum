@@ -1,12 +1,12 @@
 import './App.css';
-import Footer 'components/commons/footer';
-import Main from './Main';
-import Header from './Header';
+import Navbar from './components/home/navbar';
+import Main from './components/home/main';
+import Footer from './components/commons/footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Main />
       <Footer />
     </div>
@@ -14,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+

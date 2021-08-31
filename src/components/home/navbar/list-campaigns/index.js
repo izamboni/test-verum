@@ -1,26 +1,12 @@
-import { useState } from "react";
+import './styles.css';
 
-function Header(){
+function ListCampaigns ({ active }){
 
-    const [active, setActive] = useState('');
-    const changeActive = () => {
-        active === '' ? setActive('active') : setActive('');
-    }
+    const customClass = active ? 'active' : '';
 
     return (
-        <div className="header">
-            <div className='menu'>
-                <div className='menu-campaigns' onClick={changeActive}> Campaigns</div>
-            </div>
-            <ListCampaigns active={active} />
-        </div>
-    );
-}
-
-function ListCampaigns (props){
-    return (
-        <div className={`list-campaigns ${props.active}`}>
-                {props.active === 'active' ? (<ul>
+        <div className={`list-campaigns ${customClass}`}>
+                {active ? (<ul>
                     <li key='Heart of Tyre'><a href='#Heart of Tyre'> Heart of Tyre </a></li>
                     <li key='Shadow of Tyre'><a href='#Shadow of Tyre'>Shadow of Tyre </a></li>
                     <li key='Soul of Tyre'><a href='#Soul of Tyre'>Soul of Tyre </a></li>
@@ -34,5 +20,4 @@ function ListCampaigns (props){
     );
 }
 
-
-export default Header;
+export default ListCampaigns;

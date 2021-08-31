@@ -1,0 +1,35 @@
+.campaign {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    /* font-size: 1.8rem; */
+    color: black; 
+  }
+  
+  .campaign .description{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .campaign .description h1 {
+    text-decoration: underline black solid;
+    margin: 0;
+  }
+  
+  .campaign .description p{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    max-height: 200px;
+    min-width: 455px;
+    overflow: hidden;
+  }
+  
+  .campaign img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    z-index: 1;
+    opacity: 0.85;
+  }
