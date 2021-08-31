@@ -176,40 +176,7 @@
   margin: 0.25em;
 }
 
-.footer{
-  display: flex;
-  margin: 0%;
-  width: 100%;
-  text-align: center;
-}
 
-.contact-info{
-  display: flex;
-  width: 100%;
-  max-height: 60px;
-  justify-content: center;
-}
-
-.codecademy{
-  display: flex;
-  margin: 1em;
-}
-
-.linkedin{
-  display: flex;
-  margin: 1em;
-}
-
-.contact-info a {
-  max-height: 30px;
-  max-width: 30px;
-}
-
-.footer img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 /* .campaign.Heart.of.Tyre{
   background-image: url('./resources/Banners/heart.jpg');
