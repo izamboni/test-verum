@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div className="main">
             {data.map(campaign => 
-                <Box campaign={campaign} banner={banners.filter(banner => banner.key === campaign.key)}/>
+                <Box campaign={campaign} key={campaign.key} banner={banners.filter(banner => banner.key === campaign.key)}/>
             )}
         </div>
     );
