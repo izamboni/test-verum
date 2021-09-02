@@ -1,5 +1,5 @@
 import './styles.css';
-
+// import heart from "../../../../../assets/campaigns/heart.jpg"
 function Campaign ({ campaign, actived, description, banner}){
     return (
         <div className={`campaign ${campaign}`} id={campaign} onClick={actived}>

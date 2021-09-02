@@ -3,7 +3,6 @@ import './styles.css';
 function Members ({ active, members }) {
 
     const customClass= active ? 'active' : '';
-
     return (
         <div className={`members ${customClass}`}>
             <div className={`list-members ${customClass}`}>

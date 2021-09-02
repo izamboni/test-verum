@@ -2,42 +2,322 @@
     "data": [
         {
             "key": "heart_of_tyre",
-            "data": {
-                "madd": {
+            "name": "Heart of Tyre",
+            "data": [
+                {
                     "name": "Madd Morc",
                     "race": "Half-Orc",
                     "job": "Fighter",
                     "wiki": "https://verum.fandom.com/wiki/Madd_Morc"
                 },
-                "neve": {
+                {
+                
                     "name": "Neve",
                     "race": "Changeling",
                     "job": "Rogue",
                     "wiki": "https://verum.fandom.com/wiki/Neve"
                 },
-
-                "ives": {
+                {
+                
                     "name": "Ives Brightburn",
                     "race": "Human",
                     "job": "Rogue",
                     "wiki": "https://verum.fandom.com/wiki/Ives_Brightburn"
                 },
-
-                "seren": {
+                {
+                
                     "name": "Seren Tredder",
                     "race": "Eldar",
                     "job": "Dream Druid",
                     "wiki": "https://verum.fandom.com/wiki/Seren_Tredder"
                 },
-
-                "derok": {
+                {
+                
                     "name": "Derok Dranf",
                     "race": "Vega",
                     "job": "Sorcerer",
                     "wiki": "https://verum.fandom.com/wiki/Derok_Dranf"
+                }
+            ],
+            "description": "Following the events of Meaning in Madness, the TOPS join hands with two other groups as their next trial stands before them: clearing an infected labyrinth and finding the Heart of Tyre."
+        },
+        {
+            "key": "shadow_of_tyre",
+            "name": "Shadow of Tyre",
+            "data": [
+                {
+
+                    "name": "Ahst",
+                    "race": "Changeling",
+                    "job": "Ranger",
+                    "wiki": "https://verum.fandom.com/wiki/Ahst"
                 },
-                "description": "Following the events of Meaning in Madness, the TOPS join hands with two other groups as their next trial stands before them: clearing an infected labyrinth and finding the Heart of Tyre."
-            }
+                {
+                
+                    "name": "Eustace Bellbawls",
+                    "race": "Water Genasi",
+                    "job": "Dream Monk",
+                    "wiki": "https://verum.fandom.com/wiki/Eustace"
+                },
+                {
+                
+                    "name": "Moe Kowbull",
+                    "race": "Minotaur",
+                    "job": "Shaper",
+                    "wiki": "https://verum.fandom.com/wiki/Moe_Kowbull"
+                },
+                {
+                
+                    "name": "Raost Tredder",
+                    "race": "Shika",
+                    "job": "Barbarian",
+                    "wiki": "https://verum.fandom.com/wiki/Raost_Tredder"
+                },
+                {
+                
+                    "name": "Toot",
+                    "race": "Phoenixborn Kenku",
+                    "job": "Cleric",
+                    "wiki": "https://verum.fandom.com/wiki/Toot"
+                }
+            ],
+            "description": "Following the events of Gambler's Delight, the pirates are joined by two other groups as they embark on their next quest: finding their way through a vicious labyrinth and finding the Shadow of Tyre."
+        },
+        {
+            "key": "soul_of_tyre",
+            "name": "Soul of Tyre",
+            "data": [
+                {
+                    "name": "Belanovan Eguardo Luciabell",
+                    "race": "Tiefling",
+                    "job": "Rogue",
+                    "wiki": "https://verum.fandom.com/wiki/Belanovan_Eguardo_Luciabell"
+                },
+                {
+                    "name": "Braktor Ironbellows",
+                    "race": "Dwarf",
+                    "job": "Weaver",
+                    "wiki": "https://verum.fandom.com/wiki/Braktor_Ironbellows"},
+                {
+                    "name": "Gerald Wagner",
+                    "race": "Rexsas",
+                    "job": "Barbarian",
+                    "wiki": "https://verum.fandom.com/wiki/Gruff"},
+                {
+                    "name": "Hackne Silvermask",
+                    "race": "Svirfneblin",
+                    "job": "Wizard",
+                    "wiki": "https://verum.fandom.com/wiki/Hackne_Silvermask"},
+                {
+                    "name": "Ozzie Whitebeak",
+                    "race": "Aarakocra",
+                    "job": "Druid",
+                    "wiki": "https://verum.fandom.com/wiki/Ozzie_Whitebeak"}
+            ],
+            "description": "Following the events of Gailen's Gate our heroes unite forces with two other groups as they face their next challenge: securing a malevolent labyrinth and finding the Soul of Tyre."
+        },
+        {
+            "key": "shattered_crowns",
+            "name": "Shattered Crowns",
+            "data": [
+                {
+                    "name": "Iron Pipe",
+                    "race": "Satyr",
+                    "job": "Wizard",
+                    "wiki": "https://verum.fandom.com/wiki/Iron_Pipe"
+                },
+                {
+                    "name": "Guy Dance",
+                    "race": "Dhampir",
+                    "job": "Bard",
+                    "wiki": "https://verum.fandom.com/wiki/Guy_Dance"
+                },
+                {
+                    "name": "Huckleberry",
+                    "race": "Centaur",
+                    "job": "Fighter",
+                    "wiki": "https://verum.fandom.com/wiki/Huckleberry"
+                },
+                {
+                    "name": "Ikkar",
+                    "race": "Aarakocra",
+                    "job": "Cleric",
+                    "wiki": "https://verum.fandom.com/wiki/Ikkar"
+                },
+                {
+                    "name": "Scrumpo",
+                    "race": "Svirfneblin",
+                    "job": "Rogue",
+                    "wiki": "https://verum.fandom.com/wiki/Scrumpo"
+                }
+            ],
+            "description": "The Skarab Lords have slept for a thousand years, but now they have begun to awaken. Five unsuspecting adventurers will now face the secret threat beneath the sands and walk the path of inheritance."
+        },
+        {
+            "key": "strange_roads",
+            "name": "Strange Roads",
+            "data": [
+                {
+                    "name": "Arcidamus da Silva",
+                    "race": "Human",
+                    "job": "Cleric",
+                    "wiki": "https://verum.fandom.com/wiki/Arcidamus_da_Silva"
+                },
+                {
+                    "name": "N'varja Ilven",
+                    "race": "Blue Dragonborn",
+                    "job": "Samurai",
+                    "wiki": "https://verum.fandom.com/wiki/Neve"
+                },
+                {
+                    "name": "Koordrin Stormbane",
+                    "race": "Minotaur",
+                    "job": "Fighter",
+                    "wiki": "https://verum.fandom.com/wiki/Nox"
+                },
+                {
+                    "name": "Mirage",
+                    "race": "Siren",
+                    "job": "Bard",
+                    "wiki": "https://verum.fandom.com/wiki/Mirage"
+                },
+                {
+                    "name": "Zacharius Aradhel",
+                    "race": "High Elf",
+                    "job": "Warlock",
+                    "wiki": "https://verum.fandom.com/wiki/Zacharius_Aradhel"
+                }
+            ],
+            "description": "The call of adventure and travel truly does bring together the most unlikely of people, and each person a different story to tell along the way. It is time for the Carnivale to make its trip across the continent, to bring joy and stories to the people. Some adventurers have been recruited to make sure the trip goes smoothly."
+        },
+        {
+            "key": "tearing_veil",
+            "name": "Tearing Veil",
+            "data": [
+                {
+                    "name": "Angorn Spinesnap",
+                    "race": "Dwarf",
+                    "job": "Cleric",
+                    "wiki": "https://verum.fandom.com/wiki/Angorn_Spinesnap" 
+                },
+                {
+                    "name": "Flamewrath",
+                    "race": "Aeonic Serf",
+                    "job": "Sorcerer",
+                    "wiki": "https://verum.fandom.com/wiki/Flamewrath"
+                },
+                {
+                    "name": "Nidhogg",
+                    "race": "Daemon",
+                    "job": "Paladin",
+                    "wiki": "https://verum.fandom.com/wiki/Nidhogg"
+                },
+                {
+                    "name": "Mauler Raber",
+                    "race": "Red Orc",
+                    "job": "Barbarian",
+                    "wiki": "https://verum.fandom.com/wiki/Mauler_Raber"
+                },
+                {
+                    "name": "Vim Vigor",
+                    "race": "Tiefling",
+                    "job": "Warlock",
+                    "wiki": "https://verum.fandom.com/wiki/Vim_Vigor"
+                },
+                {
+                    "name": "Wisp",
+                    "race": "Aasimar",
+                    "job": "Bard",
+                    "wiki": "https://verum.fandom.com/wiki/Wisp"
+                }
+            ],
+            "description": "Six travelers of the not-so-good origins do the bidding of the god Oloken'hai with the ultimate goal of eliminating the White Council."
+        },
+        {
+            "key": "death_and_debts",
+            "name": "Death and Debts",
+            "data": [
+                {
+                    "name": "Madeleine",
+                    "race": "Wood Elf",
+                    "job": "Rogue",
+                    "wiki": "https://verum.fandom.com/wiki/Madeleine"
+                },
+                {
+                    "name": "Revlis",
+                    "race": "Succubus",
+                    "job": "Warlock",
+                    "wiki": "https://verum.fandom.com/wiki/Revlis"
+                },
+                {
+                    "name": "Terryn Zabi",
+                    "race": "Changeling",
+                    "job": "Warlock",
+                    "wiki": "https://verum.fandom.com/wiki/Terryn_Zabi"
+                },
+                {
+                    "name": "Umi Tormenta",
+                    "race": "Triton",
+                    "job": "Bard",
+                    "wiki": "https://verum.fandom.com/wiki/Umi_Tormenta"
+                },
+                {
+                    "name": "Vaeri",
+                    "race": "Kobold",
+                    "job": "Fighter",
+                    "wiki": "https://verum.fandom.com/wiki/Vaeri"
+                },
+                {
+                    "name": "Zara",
+                    "race": "Red Orc",
+                    "job": "Samurai",
+                    "wiki": "https://verum.fandom.com/wiki/Zara"
+                }
+            ],
+            "description": "The adventurers begin their journey across Daborak to meet the Lord of Blades to ask for assistance in the incoming fight against the Enemy."
+        },
+        {
+            "key": "broken_bonds",
+            "name": "Broken Bonds",
+            "data": [
+                {
+                    "name": "Bryan",
+                    "race": "Feral Dhampir",
+                    "job": "Monk",
+                    "wiki": "https://verum.fandom.com/wiki/Bryan"
+                },
+                {
+                    "name": "Fe'ar",
+                    "race": "Water Genasi",
+                    "job": "Shrine Maiden",
+                    "wiki": "https://verum.fandom.com/wiki/Fe%27ar"
+                },
+                {
+                    "name": "Hashbrown",
+                    "race": "Halfling",
+                    "job": "Ranger",
+                    "wiki": "https://verum.fandom.com/wiki/Hashbrown"
+                },
+                {
+                    "name": "Li'lu",
+                    "race": "Sprite",
+                    "job": "Barbarian",
+                    "wiki": "https://verum.fandom.com/wiki/Li%27lu"
+                },
+                {
+                    "name": "D'ahc",
+                    "race": "Daemon",
+                    "job": "Rogue",
+                    "wiki": "https://verum.fandom.com/wiki/D%27ahc"
+                },
+                {
+                    "name": "Remag",
+                    "race": "Tortle",
+                    "job": "Mage",
+                    "wiki": "https://verum.fandom.com/wiki/Remag"
+                }
+            ],
+            "description": "The Shackled Legion is a place that criminals often find themselves. It is a place where thieves, murderers, bandits, and so many more go to pay for their crimes. And our adventurers this time, are doing just that. They have all been imprisoned at the Iron for crimes that they may or may not have committed. But their goal for now, is to break the bonds that bind them."
         }
     ]
 }
