@@ -3,7 +3,7 @@ import './styles.css';
 import Campaign from './campaign';
 import Members from './members';
 
-function Box ({ campaign, banner }) {
+const Box = ({ campaign, banner }) => {
     const { name, data, description} = campaign;
     const  { isActive, handlePicker } = usePicker()
 

@@ -3,7 +3,7 @@ import Box from './box';
 import { data } from '../../../assets/campaigns/campaigns.json';
 import { banners } from '../../../assets/campaigns/banners';
 
-function Main() {
+const Main = () => {
     return (
         <div className="main">
             {data.map(campaign => 

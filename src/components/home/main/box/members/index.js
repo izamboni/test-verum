@@ -1,6 +1,6 @@
 import './styles.css';
 
-function Members ({ active, members }) {
+const Members = ({ active, members }) => {
 
     const customClass= active ? 'active' : '';
     return (

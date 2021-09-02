@@ -3,7 +3,7 @@ import linkedin from "../../../resources/LinkedinBlack.png";
 import './styles.css';
 
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="footer">
             <div className="contact-info">

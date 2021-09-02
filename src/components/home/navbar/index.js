@@ -2,7 +2,7 @@ import usePicker from '../../../hooks/usePicker'
 import ListCampaigns from './list-campaigns';
 import './styles.css';
 
-function Navbar(){
+const Navbar = () => {
 
     const { isActive, handlePicker } = usePicker();
 

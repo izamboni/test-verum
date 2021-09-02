@@ -1,7 +1,7 @@
 import './styles.css';
 import { data } from '../../../../assets/campaigns/campaigns.json';
 
-function ListCampaigns ({ active }){
+const ListCampaigns = ({ active }) => {
 
     const customClass = active ? 'active' : '';
 
